@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Question2</string>
+    <string name="apple">Apple</string>
+    <string name="_2_00_lb">$2.00/lb</string>
+    <string name="lbs">Lbs</string>
+    <string name="banana">Banana</string>
+    <string name="_2_50_lb">$2.50/lb</string>
+    <string name="lbs1">Lbs</string>
+    <string name="orange">Orange</string>
+    <string name="_1_80_lb">$1.80/lb</string>
+    <string name="lbs2">Lbs</string>
+    <string name="pear">Pear</string>
+    <string name="_2_25_lb">$2.25/lb</string>
+    <string name="lbs3">Lbs</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="price_0_00">Price $0.00</string>
+    <string-array name="quantityArray">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+
+</resources>

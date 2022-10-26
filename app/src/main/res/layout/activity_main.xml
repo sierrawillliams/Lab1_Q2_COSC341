@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/Apples"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="30sp"
+        android:textSize='20sp'
+        android:text="@string/apple" />
+    <TextView
+        android:id="@+id/ApplePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="155sp"
+        android:textSize='20sp'
+        android:text="@string/_2_00_lb" />
+    <TextView
+        android:id="@+id/AppleWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="350sp"
+        android:textSize='20sp'
+        android:text="@string/lbs" />
+    <Spinner
+        android:id="@+id/AppleQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_marginStart="250sp"
+        android:spinnerMode="dropdown"/>
+    <TextView
+        android:id="@+id/Banana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85sp"
+        android:layout_marginStart="30sp"
+        android:textSize='20sp'
+        android:text="@string/banana" />
+    <TextView
+        android:id="@+id/BananaPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85sp"
+        android:layout_marginStart="155sp"
+        android:textSize='20sp'
+        android:text="@string/_2_50_lb" />
+    <TextView
+        android:id="@+id/BananaWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85sp"
+        android:layout_marginStart="350sp"
+        android:textSize='20sp'
+        android:text="@string/lbs1" />
+    <Spinner
+        android:id="@+id/BananaQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75sp"
+        android:layout_marginStart="250sp"
+        android:spinnerMode="dropdown"/>
+    <TextView
+        android:id="@+id/Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120sp"
+        android:layout_marginStart="30sp"
+        android:textSize='20sp'
+        android:text="@string/orange" />
+    <TextView
+        android:id="@+id/OrangePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120sp"
+        android:layout_marginStart="155sp"
+        android:textSize='20sp'
+        android:text="@string/_1_80_lb" />
+    <TextView
+        android:id="@+id/OrangeWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120sp"
+        android:layout_marginStart="350sp"
+        android:textSize='20sp'
+        android:text="@string/lbs2" />
+    <Spinner
+        android:id="@+id/OrangeQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110sp"
+        android:layout_marginStart="250sp"
+        android:spinnerMode="dropdown"/>
+    <TextView
+        android:id="@+id/Pear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155sp"
+        android:layout_marginStart="30sp"
+        android:textSize='20sp'
+        android:text="@string/pear" />
+    <TextView
+        android:id="@+id/PearPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155sp"
+        android:layout_marginStart="155sp"
+        android:textSize='20sp'
+        android:text="@string/_2_25_lb" />
+    <TextView
+        android:id="@+id/PearWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155sp"
+        android:layout_marginStart="350sp"
+        android:textSize='20sp'
+        android:text="@string/lbs3" />
+    <Spinner
+        android:id="@+id/PearQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145sp"
+        android:layout_marginStart="250sp"
+        android:spinnerMode="dropdown"/>
+    <Button
+        android:id="@+id/ConfirmButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200sp"
+        android:text="@string/confirm"/>
+    <TextView
+        android:id="@+id/PriceCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:text="@string/price_0_00"/>
+
+</RelativeLayout>
